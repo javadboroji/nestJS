@@ -9,4 +9,5 @@ export class ArticleService extends BaseService<any> {
   async getAllArticle() {
     return await this.findAll()
   }
+  
 }
